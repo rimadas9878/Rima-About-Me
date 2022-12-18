@@ -8,5 +8,5 @@ export default function Resume(){
                 Resume
             </p>
         </div>
-    )
+    );
 }

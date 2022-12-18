@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function PortfolioHome(){
+export default function Portfolio(){
     return (
         <div>
-            <h1>Portfolio Home</h1>
+            <h1>Portfolio</h1>
             <p>
-            Portfolio Home
+            Portfolio
             </p>
         </div>
     );
