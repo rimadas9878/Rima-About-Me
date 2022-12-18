@@ -4,7 +4,7 @@ import React from "react";
 function NavTabs({ currentPage, handlePageChange }) { 
     return (
         
-        <ul class="navbar">
+        <ul class="navbar nav justify-content-center">
             {/* Creating an navigation for AboutMe  */}
             <li className="nav-item listTag">
                 <a
@@ -18,13 +18,13 @@ function NavTabs({ currentPage, handlePageChange }) {
             {/* Creating an navigation for Portfolio  */}
             <li class="nav-item">
                 <a
-                    href="#Portfolio"
+                    href="#Work"
                     //on click revoke the function to handle the page change
-                    onClick={() => handlePageChange("Portfolio")}
+                    onClick={() => handlePageChange("Work")}
                     //Adding conditional operator (ternary) that checks to see if the current page is Portfolio and if it is then set the current page to active and if not then let that be as a link
-                    className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+                    className={currentPage === "Work" ? "nav-link active" : "nav-link"}
                 >
-                    Portfolio
+                    Work
                 </a>
             </li>
             {/* Creating an navigation for ContactMe  */}

@@ -6,8 +6,82 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+/* About Me page */
+.nameTitle{
+  font-style: italic;
+  text-align: center;
+}
+
 .navbar{
   display: flex;
   flex-direction: row;
+
+}
+.bannerContainer{
+  width: 100%;
+
+}
+.bannerImage{
+  width: 100%;
+  height: 30%;
 }
 
+.myStoryText{
+  text-align: center;
+  margin: 1% 0%;
+}
+
+/* Work layout */
+.workContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:aliceblue;
+}
+
+.workContent{
+  width: 40%;
+  text-align: center;
+  margin: 0% 3%;
+}
+
+.experiencePara{
+  margin: 7% 0%;
+  font-size: larger;
+}
+
+.workImage{
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 65%;
+  margin: 7% 40%;
+}
+
+/* Education layout */
+
+.educationContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:gainsboro;
+}
+
+.educationContent{
+  width: 40%;
+  text-align: center;
+  margin: 0% 8%;
+}
+
+.educationPara{
+  margin: 7% 0%;
+  font-size: larger;
+}
+
+.educationImage{
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 65%;
+  margin: 10% 20%;
+}
