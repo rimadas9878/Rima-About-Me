@@ -24,7 +24,22 @@ export default function Profile() {
                 </div>
             </div>
             <div class="secondGrid">
-
+                <div class='TestYourKnowledgeContainer'>
+                    <img class="TestYourKnowledgeImage" src="/images/Test-Your-Knowledge.gif" alt="TestYourKnowledge_image" />
+                    <h4 class='TestYourKnowledgeText'><a href="https://github.com/rimadas9878/Test-Your-Knowledge" target="_blank">Test Your Knowledge</a></h4>
+                </div>
+                <div class='SaveTheTaskContainer'>
+                    <img class="SaveTheTaskImage" src="/images/Save_The_Task.png" alt="SaveTheTask_image" />
+                    <h4 class='SaveTheTaskText'><a href="https://github.com/rimadas9878/Save-The-Task" target="_blank">Save The Task</a></h4>
+                </div>
+                <div class='WeatherContainer'>
+                    <img class="WeatherImage" src="/images/Weather_Image.png" alt="Weather_image" />
+                    <h4 class='WeatherText'><a href="https://github.com/rimadas9878/Whats-The-Weather" target="_blank">Whats the Weather</a></h4>
+                </div>
+                <div class='TeamGeneratorContainer'>
+                    <img class="TeamGeneratorImage" src="/images/Team-generator.png" alt="Weather_image" />
+                    <h4 class='TeamGeneratorText'><a href="https://github.com/rimadas9878/Employees-Details" target="_blank">Team Generator</a></h4>
+                </div>
             </div>
         </div>
     );

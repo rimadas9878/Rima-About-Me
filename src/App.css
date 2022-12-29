@@ -169,25 +169,6 @@
   margin-left: 40px;
 }
 
-/* Dogs:The Paw */
-.DogWebsiteContainer{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin: 2% 2%;
-}
-
-.DogWebsiteImage{
-  width: 46%;
-  height: 64%;
-  border-radius: 5%;
-}
-
-.DogWebsiteText{
-  margin-top: 5px;
-  margin-left: 35px;
-}
-
 .htmcssPara{
   text-align: center;
 }
@@ -217,3 +198,78 @@
   margin-left: 35px;
 }
 
+/* TestYourKnowledge */
+.TestYourKnowledgeContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.TestYourKnowledgeImage{
+  width: 96%;
+  height: 74%;
+  border-radius: 5%;
+}
+
+.TestYourKnowledgeText{
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+/* TestYourKnowledge */
+.SaveTheTaskContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.SaveTheTaskImage{
+  width: 96%;
+  height: 74%;
+  border-radius: 5%;
+}
+
+.SaveTheTaskText{
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+/* Whats the Weather */
+.WeatherContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.WeatherImage{
+  width: 96%;
+  height: 74%;
+  border-radius: 5%;
+}
+
+.WeatherText{
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+/* Whats the Weather */
+.TeamGeneratorContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.TeamGeneratorImage{
+  width: 96%;
+  height: 74%;
+  border-radius: 5%;
+}
+
+.TeamGeneratorText{
+  margin-top: 5px;
+  margin-left: 35px;
+}
