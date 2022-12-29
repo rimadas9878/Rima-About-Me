@@ -20,10 +20,11 @@
 .bannerContainer{
   width: 100%;
 
+
 }
 .bannerImage{
   width: 100%;
-  height: 30%;
+  height: auto;
 }
 
 .myStoryText{
@@ -85,3 +86,134 @@
   height: 65%;
   margin: 10% 20%;
 }
+
+
+/* Profile Page */
+.profilePage{
+  width: 100%;
+
+}
+.firstGrid{
+  display: flex;
+  flex-direction: row; 
+  background-color:gainsboro;
+}
+.gitWebImage{
+  display: flex;
+  flex-direction: row;
+}
+.gitHubImage{
+  width: 19%;
+}
+.websiteImage{
+  width: 12%;
+
+}
+
+
+/* Horizon */
+.horizonContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 3%; 
+}
+
+.horizonImage{
+  width: 46%;
+  height: 64%;
+  border-radius: 5%;
+
+}
+
+.horizonText{
+  margin-top: 5px;
+  margin-left: 70px;
+}
+
+/* cssSnippit */
+.cssSnippetContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0%;
+}
+
+.CSSSnippetImage{
+  width: 46%;
+  height: 64%;
+  border-radius: 5%;
+}
+
+.CSSSnippetText{
+  margin-top: 5px;
+  margin-left: 60px;
+}
+
+/* Profile */
+.PortfolioContainer{
+  width: 74%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0%;
+}
+
+.PortfolioImage{
+  width: 46%;
+  height: 64%;
+  border-radius: 5%;
+}
+
+.PortfolioText{
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+/* Dogs:The Paw */
+.DogWebsiteContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.DogWebsiteImage{
+  width: 46%;
+  height: 64%;
+  border-radius: 5%;
+}
+
+.DogWebsiteText{
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+.htmcssPara{
+  text-align: center;
+}
+
+.secondGrid{
+  display: flex;
+  flex-direction: row; 
+  background-color:gainsboro;
+}
+
+/* PasswordGenerated */
+.PasswordGeneratedContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.PasswordGeneratedImage{
+  width: 46%;
+  height: 64%;
+  border-radius: 5%;
+}
+
+.PasswordGeneratedText{
+  margin-top: 5px;
+  margin-left: 35px;
+}
+

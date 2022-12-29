@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Title from './Title';
 import NavTabs from './NavTabs';
 import AboutMe from './pages/AboutMe';
-import Portfolio from './pages/Work';
+import Portfolio from './pages/Profile';
 import ContactMe from './pages/ContactMe';
 import Resume from './pages/Resume';
 
@@ -10,7 +10,7 @@ export default function PortfolioContainer(){
     const [currentPage, setCurrentPage] = useState('Portfolio');
 
     const name = () => {
-        if(currentPage === 'AboutMe', 'Work', 'ContactMe', 'Resume'){
+        if(currentPage === 'AboutMe', 'Profile', 'ContactMe', 'Resume'){
             return <Title/>
         }
     };
@@ -20,7 +20,7 @@ export default function PortfolioContainer(){
         if(currentPage === 'AboutMe'){
             return <AboutMe/>
         }
-        if(currentPage === 'Work'){
+        if(currentPage === 'Profile'){
             return <Portfolio />;
         }
         if(currentPage === 'ContactMe'){
