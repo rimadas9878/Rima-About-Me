@@ -4,7 +4,11 @@ export default function Profile() {
     return (
 
         <div class="profilePage">
-            {/* Grid which displays work using html and css */}
+            <div class='htmcssPara'>
+                <p>“First you learn to read then, you read to learn.”</p>
+                <p>Learning HTML, CSS and Javascript helped to build optimized, user-friendly websites.</p>
+                <p>Created assignments with Semantic HTML tags, images, links, favicon, forms also these are responsive website which can be viewed in all devices, used pseudo class, element, absolute and relative position</p>
+            </div>
             <div class="firstGrid">
                 <div class='horizonContainer'>                 
                 <img class="horizonImage" src="/images/Horizon.png" alt="horizon" />
@@ -23,7 +27,11 @@ export default function Profile() {
                     <h4 class='PasswordGeneratedText'><a href="https://github.com/rimadas9878/Password-Generator" target="_blank">Password Generator</a></h4>
                 </div>
             </div>
+            <div class='htmcssPara'>
+                <p>“Second section”</p>
+            </div>
             <div class="secondGrid">
+
                 <div class='TestYourKnowledgeContainer'>
                     <img class="TestYourKnowledgeImage" src="/images/Test-Your-Knowledge.gif" alt="TestYourKnowledge_image" />
                     <h4 class='TestYourKnowledgeText'><a href="https://github.com/rimadas9878/Test-Your-Knowledge" target="_blank">Test Your Knowledge</a></h4>
@@ -39,6 +47,11 @@ export default function Profile() {
                 <div class='TeamGeneratorContainer'>
                     <img class="TeamGeneratorImage" src="/images/Team-generator.png" alt="Weather_image" />
                     <h4 class='TeamGeneratorText'><a href="https://github.com/rimadas9878/Employees-Details" target="_blank">Team Generator</a></h4>
+                </div>
+            </div>
+            <div class="thirdGrid">
+                <div>
+
                 </div>
             </div>
         </div>
