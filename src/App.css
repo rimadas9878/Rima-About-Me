@@ -404,3 +404,21 @@ li{
 .titleText{
   text-decoration: brown;
 }
+/* resumePage */
+
+.resumePage{
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+.resumePDF{
+  padding-left: 4%;
+}
+
+.frontEndText{
+  padding-left: 4%;
+}
+
+.backEndText{
+  padding-left: 4%;
+}
