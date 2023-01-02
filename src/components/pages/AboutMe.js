@@ -1,16 +1,31 @@
 import React, { Component } from "react";
+import myPic from '../../assets/me.jpeg';
 
 export default function AboutMe() {
     return (
         <div>
-            <div class="bannerContainer">
-                <img
-                    class='bannerImage'
-                    src={`https://thumbs.dreamstime.com/b/hourglass-time-banner-background-format-wood-54533019.jpg`}
-                />
-            </div>
             <div>
                 <h1 class="myStoryText">My Story</h1>
+            </div>
+
+            <div class='aboutMeContainer'>
+                <div class= "meContent"> 
+                    <img
+                    class='aboutMeImage'
+                        src={myPic} alt='mypic'                                               
+                    />
+                </div>
+                <div class='aboutMeContent'>
+                    <p class='aboutMePara'>
+                    Experienced working in IT industry for more than 6 years, currently a Quality Analyst and an aspiring Web-developer
+                    </p>
+                    <p class='aboutMePara'>
+                    Defined as an adaptable, ambitious, self-motivated, and confident individual
+                    </p>
+                    <p class='aboutMePara'>
+                    My hobbies are travelling, reading, photographing, gardening and learning new things
+                    </p>
+                </div>
             </div>
 
             <div class='workContainer'>

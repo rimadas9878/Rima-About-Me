@@ -10,6 +10,7 @@ export default function Profile() {
                 <p>Created assignments with Semantic HTML tags, images, links, favicon, forms also these are responsive website which can be viewed in all devices, used pseudo class, element, absolute and relative position</p>
             </div>
             <div class="firstGrid">
+
                 <div class='horizonContainer'>                 
                 <img class="horizonImage" src="/images/Horizon.png" alt="horizon" />
                     <h4 class='horizonText'><a href="https://github.com/rimadas9878/HTML_CSS_GIT" target="_blank">Horizon</a></h4>
@@ -28,9 +29,11 @@ export default function Profile() {
                 </div>
             </div>
             <div class='htmcssPara'>
-                <p>“Second section”</p>
+                <p>“First you learn to read then, you read to learn.”</p>
+                <p>Learning HTML, CSS and Javascript helped to build optimized, user-friendly websites.</p>
+                <p>Created assignments with Semantic HTML tags, images, links, favicon, forms also these are responsive website which can be viewed in all devices, used pseudo class, element, absolute and relative position</p>
             </div>
-            <div class="secondGrid">
+            <div class="firstGrid">
 
                 <div class='TestYourKnowledgeContainer'>
                     <img class="TestYourKnowledgeImage" src="/images/Test-Your-Knowledge.gif" alt="TestYourKnowledge_image" />
