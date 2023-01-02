@@ -3,11 +3,7 @@ import myPic from '../../assets/me.jpeg';
 
 export default function AboutMe() {
     return (
-        <div>
-            <div>
-                <h1 class="myStoryText">My Story</h1>
-            </div>
-
+        <div class= "meWorkStudyContainer">
             <div class='aboutMeContainer'>
                 <div class= "meContent"> 
                     <img

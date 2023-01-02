@@ -37,7 +37,7 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div class="welcomePage">
+        <div>
             {/* Calling the name method  */}
             {name()}
 
@@ -46,17 +46,6 @@ export default function PortfolioContainer() {
 
             {/* Calling the renderPage method  */}
             {renderPage()}
-
-            <div class="footer">
-                <img
-                    class='githubImage'
-                    src={githubIcon} alt='githubIcon'
-                />
-                <img
-                    class='linkedInImage'
-                    src={linkedInIcon} alt='linkedInIcon'
-                />
-            </div>
         </div>
     );
 }

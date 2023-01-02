@@ -2,23 +2,44 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .welcomePage{
-  background-color: cadetblue;
+  background-color:darkcyan;
+}
+#welcomePageNavbar{
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://freerangestock.com/sample/119650/technology-background--digital-hand.jpg);
+
+  padding: 2%;
+
 }
 
 .nameTitle{
-  font-style: italic;
   text-align: center;
+  margin: auto;
 }
+.navbarText{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 150%;
+  font-weight: bolder;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+}
+li{
+  padding: 10px;
+}
+
 
 .navbar{
   display: flex;
   flex-direction: row;
 
 }
+
 
 /* About Me page */
 .myStoryText{
@@ -31,7 +52,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color:gainsboro;
+  background-color:darkcyan;
 }
 
 .meContent{
@@ -64,7 +85,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color:aliceblue;
+  background-color:darkkhaki;
 }
 
 .workContent{
@@ -125,7 +146,8 @@
 .firstGrid{
   display: flex;
   flex-direction: row; 
-  background-color:gainsboro;
+  background-color:black;
+  padding-bottom: 2%;
 }
 .gitWebImage{
   display: flex;
@@ -149,8 +171,8 @@
 }
 
 .horizonImage{
-  width: 46%;
-  height: 64%;
+  width: 64%;
+  height: 92%;
   border-radius: 5%;
 
 }
@@ -158,6 +180,8 @@
 .horizonText{
   margin-top: 5px;
   margin-left: 70px;
+  text-decoration: none;
+  color: white;
 }
 
 /* cssSnippit */
@@ -169,8 +193,8 @@
 }
 
 .CSSSnippetImage{
-  width: 46%;
-  height: 64%;
+  width: 64%;
+  height: 92%;
   border-radius: 5%;
 }
 
@@ -179,34 +203,20 @@
   margin-left: 60px;
 }
 
-/* Profile */
-.PortfolioContainer{
-  width: 74%;
-  display: flex;
-  flex-direction: column;
-  margin: 2% 0%;
-}
-
-.PortfolioImage{
-  width: 46%;
-  height: 64%;
-  border-radius: 5%;
-}
-
-.PortfolioText{
-  margin-top: 5px;
-  margin-left: 40px;
-}
-
 .htmcssPara{
   text-align: center;
-  background-color:aliceblue;
+  text-decoration: white;
+  background-color:black;
+  padding: 2%;
+  line-height: 202%;
 }
-
+.explanation{
+  color: aqua;
+}
 .secondGrid{
   display: flex;
   flex-direction: row; 
-  background-color:gainsboro;
+  background-color:black;
 }
 
 /* PasswordGenerated */
@@ -218,14 +228,14 @@
 }
 
 .PasswordGeneratedImage{
-  width: 46%;
-  height: 64%;
+  width: 64%;
+  height: 92%;
   border-radius: 5%;
 }
 
 .PasswordGeneratedText{
   margin-top: 5px;
-  margin-left: 35px;
+  margin-left: 18px;
 }
 
 /* TestYourKnowledge */
@@ -244,10 +254,10 @@
 
 .TestYourKnowledgeText{
   margin-top: 5px;
-  margin-left: 35px;
+  margin-left: 76px;
 }
 
-/* TestYourKnowledge */
+/* SaveTheTask */
 .SaveTheTaskContainer{
   width: 100%;
   display: flex;
@@ -263,7 +273,7 @@
 
 .SaveTheTaskText{
   margin-top: 5px;
-  margin-left: 35px;
+  margin-left: 120px;
 }
 
 /* Whats the Weather */
@@ -282,10 +292,30 @@
 
 .WeatherText{
   margin-top: 5px;
-  margin-left: 35px;
+  margin-left: 92px;
 }
 
-/* Whats the Weather */
+/* ReadMe Generator */
+.ReadMeGeneratorContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.ReadMeGeneratorImage{
+  width: 96%;
+  height: 74%;
+  border-radius: 5%;
+}
+
+.ReadMeGeneratorText{
+  margin-top: 5px;
+  margin-left: 91px;
+}
+
+
+/* Team Generator */
 .TeamGeneratorContainer{
   width: 100%;
   display: flex;
@@ -301,18 +331,38 @@
 
 .TeamGeneratorText{
   margin-top: 5px;
-  margin-left: 35px;
+  margin-left: 69px;
 }
+
+/* Note Taker */
+.noteTakerContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2%;
+}
+
+.noteTakerImage{
+  width: 96%;
+  height: 74%;
+  border-radius: 5%;
+}
+
+.noteTakerText{
+  margin-top: 5px;
+  margin-left: 131px;
+}
+
+/* Contact Me Page */
 .contactPage{
-  background-color: antiquewhite;
+  background-color: darkcyan;
   padding: 4%;
   margin: 0%;
 }
 
 .contactForm{
-  border: 1px solid black;
   margin: 0% 20%;
-  background-color: aliceblue;
+  background-color: darkcyan;
 }
 .nameRow{
   text-align: left;
@@ -320,15 +370,16 @@
 }
 
 .inputName{
-  margin-left: 2%;
+  margin-left: 8%;
   padding: 1% 10%;
+  
 }
 .emailRow{
   text-align: left;
   padding: 2%;
 }
 .inputEmail{
-  margin-left: 2%;
+  margin-left: 2.5%;
   padding: 1% 20%;
 }
 .messageRow{
@@ -336,10 +387,20 @@
   padding: 2%;
 }
 .inputMessage{
-  margin-left: 2%;
+  margin-left: 6%;
   padding: 1% 10%;
 }
 .submit{
   padding: 1% 10%;
   margin: 4% 40%;
+}
+
+.thirdGrid{
+  display: flex;
+  flex-direction: row; 
+  background-color:black;
+}
+
+.titleText{
+  text-decoration: brown;
 }
