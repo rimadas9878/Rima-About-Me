@@ -2,37 +2,42 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: sans-serif;
 }
+
 .welcomePage{
   background-color:darkcyan;
 }
+
 #welcomePageNavbar{
   display: flex;
   flex-direction: column;
   background-image: url(https://freerangestock.com/sample/119650/technology-background--digital-hand.jpg);
-
   padding: 2%;
-
 }
 
 .nameTitle{
   text-align: center;
   margin: auto;
 }
+
 .navbarText{
-  font-family: 'Times New Roman', Times, serif;
   font-size: 150%;
   font-weight: bolder;
   color: white;
 }
-a:visited {
+
+.navbarText:link {
   text-decoration: none;
 }
+
+.navbarText:visited {
+  text-decoration: none;
+}
+
 li{
   padding: 10px;
 }
-
 
 .navbar{
   display: flex;
@@ -74,9 +79,9 @@ li{
   display: flex;
   align-items: center;
   width: 50%;
-  height: 65%;
+  height: 74%;
   margin-top: 5%;
-  margin-left: 6%;
+  margin-left: 15%;
   border: 1px solid black;
 }
 
@@ -85,7 +90,7 @@ li{
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color:darkkhaki;
+  background-color: antiquewhite
 }
 
 .workContent{
@@ -146,32 +151,46 @@ li{
 .firstGrid{
   display: flex;
   flex-direction: row; 
-  background-color:black;
+  background-color:white;
   padding-bottom: 2%;
+  background-color: teal;
 }
-.gitWebImage{
-  display: flex;
-  flex-direction: row;
-}
-.gitHubImage{
-  width: 19%;
-}
-.websiteImage{
-  width: 12%;
-
+.explanationGrid{
+  padding: 2%;
+  width: 60%;
 }
 
+.explanation1{
+  color:black;
+  text-align: center;
+  padding-left: 14%;
+}
 
+.explanation2{
+  color:black;
+  text-align: center;
+  padding-left: 28%;
+}
+.explanation3{
+  color:black;
+  text-align: center;
+  padding-left: 28%;
+}
+.explanation4{
+  color:black;
+  text-align: center;
+  padding-left: 49%;
+}
 /* Horizon */
 .horizonContainer{
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
-  margin: 2% 3%; 
+  margin: 2% 9%; 
 }
 
 .horizonImage{
-  width: 64%;
+  width: 71%;
   height: 92%;
   border-radius: 5%;
 
@@ -179,9 +198,15 @@ li{
 
 .horizonText{
   margin-top: 5px;
-  margin-left: 70px;
+  margin-left: 94px;
   text-decoration: none;
-  color: white;
+  color: black;
+
+}
+
+.horizonGithubImage{
+  width: 12%;
+  margin-left: 8%;
 }
 
 /* cssSnippit */
@@ -202,21 +227,9 @@ li{
   margin-top: 5px;
   margin-left: 60px;
 }
-
-.htmcssPara{
-  text-align: center;
-  text-decoration: white;
-  background-color:black;
-  padding: 2%;
-  line-height: 202%;
-}
-.explanation{
-  color: aqua;
-}
-.secondGrid{
-  display: flex;
-  flex-direction: row; 
-  background-color:black;
+.cssSnippetGithubImage{
+  width: 10%;
+  margin-left: 18%;
 }
 
 /* PasswordGenerated */
@@ -238,16 +251,29 @@ li{
   margin-left: 18px;
 }
 
+.PasswordGeneratedGithubImage{
+  width: 9%;
+  margin-left: 26%;
+}
+
+.secondGrid{
+  display: flex;
+  flex-direction: row; 
+  padding-bottom: 2%;
+  padding-left: 5%;
+  background-color: antiquewhite
+}
+
 /* TestYourKnowledge */
 .TestYourKnowledgeContainer{
-  width: 100%;
+  width: 82%;
   display: flex;
   flex-direction: column;
   margin: 2% 2%;
 }
 
 .TestYourKnowledgeImage{
-  width: 96%;
+  width: 86%;
   height: 74%;
   border-radius: 5%;
 }
@@ -257,6 +283,20 @@ li{
   margin-left: 76px;
 }
 
+.TestYourKnowledgeGithubImage{
+  width: 12%;
+  margin-left: 21%;
+}
+
+.SaveTheTaskGithubImage{
+  width: 12%;
+  margin-left: 8%;
+}
+
+.WeatherGithubImage{
+  width: 12%;
+  margin-left: 15%;
+}
 /* SaveTheTask */
 .SaveTheTaskContainer{
   width: 100%;
@@ -266,8 +306,8 @@ li{
 }
 
 .SaveTheTaskImage{
-  width: 96%;
-  height: 74%;
+  width: 73%;
+  height: 67%;
   border-radius: 5%;
 }
 
@@ -285,14 +325,23 @@ li{
 }
 
 .WeatherImage{
-  width: 96%;
-  height: 74%;
+  width: 70%;
+  height: 46%;
   border-radius: 5%;
 }
 
 .WeatherText{
   margin-top: 5px;
   margin-left: 92px;
+}
+
+.thirdGrid{
+  display: flex;
+  flex-direction: row; 
+  background-color:gainsboro;
+  padding-bottom: 2%;
+  padding-left: 4%;
+
 }
 
 /* ReadMe Generator */
@@ -304,8 +353,8 @@ li{
 }
 
 .ReadMeGeneratorImage{
-  width: 96%;
-  height: 74%;
+  width: 80%;
+  height: 43%;
   border-radius: 5%;
 }
 
@@ -314,6 +363,10 @@ li{
   margin-left: 91px;
 }
 
+.ReadMeGeneratorGithubImage{
+  width: 12%;
+  margin-left: 18%;
+}
 
 /* Team Generator */
 .TeamGeneratorContainer{
@@ -334,6 +387,10 @@ li{
   margin-left: 69px;
 }
 
+.TeamGeneratorGithubImage{
+  width: 12%;
+  margin-left: 33%;
+}
 /* Note Taker */
 .noteTakerContainer{
   width: 100%;
@@ -343,14 +400,19 @@ li{
 }
 
 .noteTakerImage{
-  width: 96%;
-  height: 74%;
+  width: 69%;
+  height: 36%;
   border-radius: 5%;
 }
 
 .noteTakerText{
   margin-top: 5px;
   margin-left: 131px;
+}
+
+.noteTakerGithubImage{
+  width: 12%;
+  margin-left: 8%;
 }
 
 /* Contact Me Page */
@@ -363,6 +425,7 @@ li{
 .contactForm{
   margin: 0% 20%;
   background-color: darkcyan;
+  font-size: larger;
 }
 .nameRow{
   text-align: left;
@@ -372,6 +435,7 @@ li{
 .inputName{
   margin-left: 8%;
   padding: 1% 10%;
+  font-size: larger;
   
 }
 .emailRow{
@@ -381,6 +445,7 @@ li{
 .inputEmail{
   margin-left: 2.5%;
   padding: 1% 20%;
+  font-size: larger;
 }
 .messageRow{
   text-align: left;
@@ -389,16 +454,11 @@ li{
 .inputMessage{
   margin-left: 6%;
   padding: 1% 10%;
+  font-size: larger;
 }
 .submit{
   padding: 1% 10%;
   margin: 4% 40%;
-}
-
-.thirdGrid{
-  display: flex;
-  flex-direction: row; 
-  background-color:black;
 }
 
 .titleText{
@@ -407,18 +467,38 @@ li{
 /* resumePage */
 
 .resumePage{
+  background-color: darkcyan;
   padding-left: 2%;
   padding-top: 2%;
+  display: flex;
 }
 
 .resumePDF{
   padding-left: 4%;
 }
 
+.resumetext{
+  color: white;
+  font-size: larger;
+}
+
 .frontEndText{
   padding-left: 4%;
+  line-height: initial;
 }
 
 .backEndText{
   padding-left: 4%;
+  line-height: initial;
+}
+
+li{
+  font-size: larger;
+}
+
+.footerContainer{
+  text-align: center;
+  font-size: larger;
+  background-color: beige;
+
 }

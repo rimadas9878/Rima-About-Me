@@ -10,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 <a
                     href="#aboutme"
                     onClick={() => handlePageChange("AboutMe")}
-                    className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
+                    // className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
                     class="navbarText"
                 >
                     AboutMe
@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     //on click revoke the function to handle the page change
                     onClick={() => handlePageChange("Profile")}
                     //Adding conditional operator (ternary) that checks to see if the current page is Portfolio and if it is then set the current page to active and if not then let that be as a link
-                    className={currentPage === "Profile" ? "nav-link active" : "nav-link"}
+                    // className={currentPage === "Profile" ? "nav-link active" : "nav-link"}
                     class="navbarText"
                 >
                     Profile
@@ -34,7 +34,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 <a
                     href="#contactme"
                     onClick={() => handlePageChange("ContactMe")}
-                    className={currentPage === "ContactMe" ? "nav-link active" : "nav-link"}
+                    // className={currentPage === "ContactMe" ? "nav-link active" : "nav-link"}
                     class="navbarText"
                 >
                     ContactMe
@@ -46,7 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 <a
                     href="#resume"
                     onClick={() => handlePageChange("Resume")}
-                    className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+                    // className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
                     class="navbarText"
                 >
                     Resume

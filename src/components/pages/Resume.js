@@ -7,7 +7,7 @@ export default function Resume(){
             <h2>Resume</h2>
             <hr></hr>
             <div class="resumePDF">
-            <li><a href="Rima_Das.pdf">Download Resume</a></li>
+            <li><a class="resumetext" href="Rima_Das.pdf">Download Resume</a></li>
             </div>
             <br></br>
             <br></br>

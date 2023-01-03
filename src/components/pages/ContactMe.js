@@ -38,7 +38,7 @@ return (
           <label htmlFor="name">Name:</label>
           <input
             type="text"
-            placeholder="Name"
+            placeholder="Enter your Name"
             name="name"
             className="inputName"
             required
@@ -49,7 +49,7 @@ return (
           <label htmlFor="email">Email address:</label>
           <input
             type="email"
-            placeholder="Email Address"
+            placeholder="Enter your Email Address"
             name="email"
             className="inputEmail"
             required
@@ -61,6 +61,7 @@ return (
           <textarea
             type="text"
             name="message"
+            placeholder="Enter your Message"
             rows="5"
             className="inputMessage"
             required

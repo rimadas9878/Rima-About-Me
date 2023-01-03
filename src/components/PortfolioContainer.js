@@ -5,8 +5,7 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Profile';
 import ContactMe from './pages/ContactMe';
 import Resume from './pages/Resume';
-import githubIcon from '../assets/github.jpeg';
-import linkedInIcon from '../assets/linkedIn.png';
+import FooterIcons from './Footer';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -30,8 +29,13 @@ export default function PortfolioContainer() {
         }
         if (currentPage === 'Resume') {
             return <Resume />
-        }
+        }   
+    };
 
+    const footerOnPage = () => {
+        if (currentPage === 'AboutMe', 'Profile', 'ContactMe', 'Resume') {
+            return <FooterIcons />
+        }
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
@@ -46,6 +50,8 @@ export default function PortfolioContainer() {
 
             {/* Calling the renderPage method  */}
             {renderPage()}
+
+            {footerOnPage()}
         </div>
     );
 }
