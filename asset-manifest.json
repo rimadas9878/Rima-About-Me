@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Rima-About-Me/static/css/main.6e9548dc.css",
+    "main.js": "/Rima-About-Me/static/js/main.0d4732df.js",
+    "static/media/me.jpeg": "/Rima-About-Me/static/media/me.769c709d6e466eda8da6.jpeg",
+    "index.html": "/Rima-About-Me/index.html",
+    "main.6e9548dc.css.map": "/Rima-About-Me/static/css/main.6e9548dc.css.map",
+    "main.0d4732df.js.map": "/Rima-About-Me/static/js/main.0d4732df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e9548dc.css",
+    "static/js/main.0d4732df.js"
+  ]
+}
