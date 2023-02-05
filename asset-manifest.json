@@ -1,14 +1,22 @@
 {
   "files": {
     "main.css": "/Rima-About-Me/static/css/main.6e9548dc.css",
-    "main.js": "/Rima-About-Me/static/js/main.0d4732df.js",
+    "main.js": "/Rima-About-Me/static/js/main.7595f432.js",
+    "static/media/ReadMeGenerator.gif": "/Rima-About-Me/static/media/ReadMeGenerator.9298c9a1df93ac92bb50.gif",
+    "static/media/Test-Your-Knowledge.gif": "/Rima-About-Me/static/media/Test-Your-Knowledge.22e71d54cd5416cc9c42.gif",
+    "static/media/Horizon.png": "/Rima-About-Me/static/media/Horizon.5894c17d8def8480953b.png",
+    "static/media/CSSSnippet.png": "/Rima-About-Me/static/media/CSSSnippet.222698edba1c14c1ab2d.png",
     "static/media/me.jpeg": "/Rima-About-Me/static/media/me.769c709d6e466eda8da6.jpeg",
+    "static/media/Weather_Image.png": "/Rima-About-Me/static/media/Weather_Image.cd1293221bb8db140e29.png",
+    "static/media/Save_The_Task.png": "/Rima-About-Me/static/media/Save_The_Task.3f6d8dce0ed9e26c2671.png",
+    "static/media/Team-generator.png": "/Rima-About-Me/static/media/Team-generator.906a839c31704591765b.png",
+    "static/media/PasswordGenerated.png": "/Rima-About-Me/static/media/PasswordGenerated.79c2721b5ef1277e2440.png",
     "index.html": "/Rima-About-Me/index.html",
     "main.6e9548dc.css.map": "/Rima-About-Me/static/css/main.6e9548dc.css.map",
-    "main.0d4732df.js.map": "/Rima-About-Me/static/js/main.0d4732df.js.map"
+    "main.7595f432.js.map": "/Rima-About-Me/static/js/main.7595f432.js.map"
   },
   "entrypoints": [
     "static/css/main.6e9548dc.css",
-    "static/js/main.0d4732df.js"
+    "static/js/main.7595f432.js"
   ]
 }
