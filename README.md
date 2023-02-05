@@ -7,6 +7,7 @@
   * [Steps to deploy](#Steps-to-deploy)
   * [Deployed Link](#deployed-link)
   * [GitHub Link](#github-link)
+  * [Website Image](#website-image)
 
   ## Description
   This weeks assignment was to create a portfolio using React skills and deploy this application to GitHub Pages. The portfolio has 4 sections,
@@ -42,3 +43,7 @@ https://rimadas9878.github.io/Rima-About-Me/
 ## GitHub Link
 
 https://github.com/rimadas9878/Rima-About-Me
+
+## Website Image
+
+![website image](/src/assets/Rima-About-Me.png)
